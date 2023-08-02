@@ -1,61 +1,54 @@
-# AirBnB Rental Price Prediction - Machine Learning With MongoDB And Tensorflow Keras
-Example on how to conduct efficient Machine-Learning with Python, MongoDB, Tensorflow (Keras).
+How I Used Airbnb to Predict Rental Prices with Machine Learning
 
-Python has become the "Swiss Army Knife" for Developers and Datascientists all around the world.
-By programming in Python nearly all of the most recent technologies can be used as native connectors and APIs are provided.
-  - MongoDB
-  - Tensorflow
-  - Spark
-  - ...
+We're talking about:
 
-The code in this repository is one of the foundations for my technical talks on ML.
-It showcases how MongoDB can be leveraged jointly with Keras that has been incorporated in Tensorflow.
+MongoDB
+Tensorflow
+Spark
+And more...
+The code in this collection is like a foundation for my talks about Machine Learning. It demonstrates how you can combine MongoDB and Keras, which is part of Tensorflow.
 
-As within my Demo on MongoDB with Mongolite and R, I think that using a Database, that is natural to work with is extremly important for Developer (my own) productivity.
+Just like in my demonstration with MongoDB and R, I believe it's super important to use a database that's easy to work with. This is key for developer productivity.
 
-The sample shows how:
-- How the Aggregation Pipeline can be used to prepare base tables from polymorphic data
-- Models can be stored in MongoDB
-- How the Aggregation Pipeline can be used to select the best model across different training runs
+Here's what the example shows:
 
-All of this allows to reduce the workload on the machine used for the training processes and even more importantly allows for continous training and deployment architectures.
-Especially when using ensemble methods, this comes in handy.
+How you can use the Aggregation Pipeline to get important information from different types of data.
+Storing models in MongoDB.
+Using the Aggregation Pipeline again to pick the best model from different training tries.
+All this helps reduce the work on the computer when training models and lets you train and use models continuously. This is extra helpful when you're using methods that combine lots of models.
 
-# The Slide-Deck
-[Working Draft](https://docs.google.com/presentation/d/1Ny-xHH4DnpYZRJEuM2zXeP43gRS9nwtO6uFBYI_Cg5k/edit?usp=sharing)
+There's a Slide-Deck and a Demo to help you understand more.
 
-# The Demo
-The Demo can be found in the Machine_Learning_With_MongoDB_And_Tensorflow_Keras_Public.py file.
+The Demo is in the "Machine_Learning_With_MongoDB_And_Tensorflow_Keras_Public.py" file.
 
-### Installation
-- Go to http://atlas.mongodb.com and create a free Account.
-- Create a Cluster (M0 is free)
-- Click on the three dots next to the connect button on your cluster and choose load sample dataset <br>
+Getting Things Ready:
 
-Once you have done that and the cluster has finished the initialization / update:<br>
-Please adjust the connection-string to MongoDB Atlas and ensure to have loaded the sample datasets
-```sh
-    #MongoDB
-    client = MongoClient("MongoDB-Connection-String")
-```
-Please also add your current IP-Adress to the IP-Whitelist under the security section on Atlas - otherwise you will not be able to connect to the cluster as the VPC used to deploy the cluster is fully locked down.
-Now you can run the Demo.
+Create a free account at http://atlas.mongodb.com.
 
-### Packages
+Make a Cluster (M0 is free).
 
-| Package | Link |
-| ------ | ------ |
-| PyMongo | [https://api.mongodb.com/python/current/] |
-| Tensorflow | [https://www.tensorflow.org/] |
-| SkLearn | [https://scikit-learn.org/stable/] |
-| Matplotlib | [https://matplotlib.org/] |
-| Pandas | [https://pandas.pydata.org/] |
-| Numpy | [https://numpy.org/] |
-| Seaborn | [https://seaborn.pydata.org/] |
-| Pickle (Might need to be replaced) | [https://docs.python.org/3/library/pickle.html] |
+Click on the three dots next to the connect button and choose to load sample data.
 
+After the cluster is ready, adjust the connection-string to MongoDB Atlas and load the sample data.
 
+python
+Copy code
+# MongoDB
+client = MongoClient("MongoDB-Connection-String")
+Add your IP address to the IP-Whitelist in the security section. This is important for connecting to the cluster.
 
+Now you're ready to run the Demo.
 
-This is a manual comment:
-Markdown Created with: https://dillinger.io/
+You'll need some packages:
+
+PyMongo: [https://api.mongodb.com/python/current/]
+Tensorflow: [https://www.tensorflow.org/]
+Scikit-Learn (SkLearn): [https://scikit-learn.org/stable/]
+Matplotlib: [https://matplotlib.org/]
+Pandas: [https://pandas.pydata.org/]
+NumPy: [https://numpy.org/]
+Seaborn: [https://seaborn.pydata.org/]
+Pickle (You might need to change this): [https://docs.python.org/3/library/pickle.html]
+This comment was manually created using Markdown at: https://dillinger.io/
+
+Just like how I showed you how to do things on Airbnb, you can do similar things on other apps too. This example demonstrates how to efficiently use Machine Learning using Python, MongoDB, and Tensorflow (Keras).
