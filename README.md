@@ -1,4 +1,4 @@
-How I Used Airbnb to Predict Rental Prices with Machine Learning
+How I Used MongoDB along with ML to predict Airbnb Rental Prices 
 
 We're talking about:
 
