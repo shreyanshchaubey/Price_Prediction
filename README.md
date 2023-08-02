@@ -1,4 +1,4 @@
-#How I Used Airbnb to Predict Rental Prices with Machine Learning
+How I Used Airbnb to Predict Rental Prices with Machine Learning
 
 We're talking about:
 
