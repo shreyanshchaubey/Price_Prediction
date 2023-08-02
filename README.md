@@ -1,4 +1,4 @@
-How I Used Airbnb to Predict Rental Prices with Machine Learning
+#How I Used Airbnb to Predict Rental Prices with Machine Learning
 
 We're talking about:
 
@@ -31,9 +31,6 @@ Click on the three dots next to the connect button and choose to load sample dat
 
 After the cluster is ready, adjust the connection-string to MongoDB Atlas and load the sample data.
 
-python
-Copy code
-# MongoDB
 client = MongoClient("MongoDB-Connection-String")
 Add your IP address to the IP-Whitelist in the security section. This is important for connecting to the cluster.
 
